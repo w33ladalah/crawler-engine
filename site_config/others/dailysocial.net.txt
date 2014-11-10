@@ -1,0 +1,6 @@
+title: //h1[@class='post-title']
+author: //span[@class='author']/a
+date: //span[@class='date']
+body: //div[@class='post-entry clearfix']/img | //div[@class='post-entry clearfix']/p
+
+test_url: http://dailysocial.net/post/blackberry-pastikan-tidak-ada-pegawai-di-indonesia-yang-terkena-pemecatan-global

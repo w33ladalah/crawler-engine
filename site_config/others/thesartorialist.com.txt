@@ -1,0 +1,5 @@
+title: //div[@id='over-bloc-bigimage']/h2/a
+body: //div[@id='bloc-bigimage']
+body: //div[@class='article-content']//img[contains(@class,'wp-image-')]
+
+test_url: http://www.thesartorialist.com/photos/on-the-street-rue-du-temple-paris-2/

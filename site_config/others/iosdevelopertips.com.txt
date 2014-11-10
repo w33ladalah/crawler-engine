@@ -1,0 +1,11 @@
+title: //h1[@class='entry-title']
+body: //div[@id='content']/div[@id='post-13659']/p
+
+strip: //div[@class='post-header']
+strip_id_or_class: yarpp-related
+
+prune: yes
+
+test_url: http://iosdevelopertips.com/ios-beta/ios-7-and-xcode-5-gm-seeds-released.html
+test_url: http://iosdevelopertips.com/ios-beta/ios-7-beta-5-and-xcode-dp-5-released.html
+test_url: http://iosdevelopertips.com/beta/ios-7-beta-6-released.html

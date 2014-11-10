@@ -1,0 +1,9 @@
+title: //div[@class='kcm-read-content-top']/h2
+body: //div[@class='kcm-read-content-text']/div[@class='span6 nml']
+image: //div[@class='mb1']//img/@src
+crawl_areas: //ul[@class='clearfix']
+publish_date: //div[@class='grey small mb2']/text()
+publish_date_day_pattern: ,\s([0-9]{1}|[0-9]{2})\s
+publish_date_month_pattern: \s([a-zA-Z]+)\s[0-9]
+publish_date_year_pattern: \s([0-9]{4})\s\|
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

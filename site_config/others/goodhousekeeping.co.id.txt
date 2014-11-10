@@ -1,0 +1,7 @@
+title: //div[@class='post-heading']/h1
+body: //div[@class='post-thumb'] | //div[@class='post-entry']
+
+strip: //h3[last()]
+strip: //p[last()]
+
+test_url: http://www.goodhousekeeping.co.id/2013/10/05/kentang-rempah-kering/

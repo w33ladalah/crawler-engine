@@ -1,0 +1,5 @@
+title: //div[@class='post_title']/h3/a
+author: //div[@class='post_meta']/div[@class='post_info']/a[1]
+body: //div[@class='post_main']/div[@class='post_content']/p
+
+test_url: http://www.androidpolice.com/2013/09/18/leaked-screenshot-indicates-that-republic-wireless-will-sell-the-moto-x-for-299-off-contract/

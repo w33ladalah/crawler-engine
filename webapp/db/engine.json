@@ -1,0 +1,40 @@
+{
+    "post_to_lintas": "yes",
+    "engine": {
+        "News": {
+            "cmd": "/usr/bin/python /opt/engine.lintas.me/scheduler.py -c news",
+            "run_at": [
+                "0",
+                "1"
+            ]
+        },
+        "Bola": {
+            "cmd": "/usr/bin/python /opt/engine.lintas.me/scheduler.py -c bola", 
+            "run_at": [
+                "5", 
+                "1"
+            ]
+        }, 
+        "Woman": {
+            "cmd": "/usr/bin/python /opt/engine.lintas.me/scheduler.py -c woman", 
+            "run_at": [
+                "20", 
+                "1"
+            ]
+        }, 
+        "Otomotif": {
+            "cmd": "/usr/bin/python /opt/engine.lintas.me/scheduler.py -c otomotif", 
+            "run_at": [
+                "15", 
+                "1"
+            ]
+        }, 
+        "Tech": {
+            "cmd": "/usr/bin/python /opt/engine.lintas.me/scheduler.py -c tech", 
+            "run_at": [
+                "10", 
+                "1"
+            ]
+        }
+    }
+}

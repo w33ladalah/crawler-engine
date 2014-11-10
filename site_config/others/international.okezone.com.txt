@@ -1,0 +1,4 @@
+title: //div[@class='read']/h1
+body: //img[@id='detailpic'] | //div[@class='read']/p
+
+test_url: http://international.okezone.com/read/2013/10/21/412/884231/3-orang-tewas-tertembak-di-halaman-gereja-kairo

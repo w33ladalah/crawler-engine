@@ -1,0 +1,12 @@
+title: //h1[@class='single-title clearfix class-post-format post-aside']
+author: //span[@class='entry-author']/a[@class='url fn n']
+date: //span[@class='entry-date']/a/time
+body: //div[@class='entry-content clearfix']
+
+strip: //table[1]
+strip: //div[@id='attachment_958053']/p[@class='wp-caption-text']
+strip: //div[@class='entry-content clearfix']/p[last()]
+strip: //div[@class='entry-content clearfix']/div[@id='crp_related']
+strip: //div[@class='entry-content clearfix']/div[@class='ratingblock ']
+
+test_url: http://malang-online.com/2013/10/03/mahfud-md-mk-tidak-bisa-lagi-dipercaya/

@@ -1,0 +1,4 @@
+title: //h1[@class='entry-title single-title']/span
+body: //div[@id='gallery-carousel']//div[@class='carousel']/img | //div[@class='single-box clearfix entry-content']/p
+
+test_url: http://www.oliviapalermo.com/runway-report-giambattista-valli/

@@ -1,0 +1,7 @@
+title: //h1[@class='entertainment-newsdetail-title-new']
+body: //div[@class='entertainment-newsdetail-headlineimg']/img | //div[@id='newsdetail-right-new']/div[@id='v6-revb-detailnews']
+
+strip: //h2[last()]
+strip: //a[contains(@onclick, '_gaq')]
+
+test_url: http://www.kapanlagi.com/showbiz/selebriti/tepati-nazar-jupe-cari-parfum-agnes-monica-dan-guru-agama-03d91e.html

@@ -1,0 +1,4 @@
+title: //h1[@class='jdl-detail']
+body: //div[@class='img-detailberita']/img | //div[@class='txt-detailberita']/p
+
+test_url: http://www.republika.co.id/berita/nasional/politik/13/10/17/musxqm-dpr-setuju-politik-dinasti-harus-dilarang

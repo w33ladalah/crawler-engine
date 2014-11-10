@@ -1,0 +1,5 @@
+title: //h2[@class='contentheading']/a
+body: //div[@class='thumbnail'] | //div[@id='ja-content-main']/div[@class='item-page']/p
+
+test_url: http://www.tabloidbintang.com/berita/polah/74040-rayakan-ulang-tahun-anak-pertama,-nindy-sangat-menikmati-jadi-ibu.html
+test_url: http://www.tabloidbintang.com/berita/polah/74802-demi-anak,-darius-dan-donna-agnesia-hindari-konflik.html

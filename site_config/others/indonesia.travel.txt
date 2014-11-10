@@ -1,0 +1,6 @@
+title: //div[@class='story col3']/h2
+body: //div[@class='story col3']/p
+
+strip: //p[@class='textsmall']
+
+test_url: http://www.indonesia.travel/en/news/detail/1069/indonesia-awards-top-10-green-hotels-2013

@@ -1,0 +1,5 @@
+title: //div[@class='leftcol post-detail']/h2
+author: //span[@class='author']
+body: //div[@class='entry-right']/p
+
+test_url: http://www.bisnis.com/bisnis-batik-adu-kreatif-di-ranah-motif

@@ -1,0 +1,5 @@
+title: //div[@class='leftside']/div[4]/h3
+date: //div[@class='leftside']/div[4]/span[1]
+body: //div[@class='body_resize']/div[@class='leftside']/p[3]
+
+test_url: http://www.geekchamp.com/news/details-of-recent-outages-for-youtube-apps-on-windows-phone

@@ -1,0 +1,4 @@
+title: //article/h3/a[@class='oswald']
+body: //div[@class='large-8 columns']/article/div[@class='right fix']/p | //div[@class='large-8 columns']/article/p
+
+test_url: http://www.ciputraentrepreneurship.com/domestic-womenpreneur/inovasi-dian-datangkan-omzet-rp-100-juta-per-bulan

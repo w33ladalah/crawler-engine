@@ -1,0 +1,160 @@
+{% extends _layout/layout.html %}
+
+{% block body %}
+<section id="main" role="main">
+    <!-- START Template Container -->
+    <div class="container-fluid">
+        <!-- Page Header -->
+        <div class="page-header page-header-block">
+            <div class="page-header-section">
+                <h4 class="title semibold">Home</h4>
+            </div>
+            <div class="page-header-section">
+                <!-- Toolbar -->
+                <!-- <div class="toolbar">
+                    <ol class="breadcrumb breadcrumb-transparent nm">
+                        <li><a href="#">Table</a></li>
+                        <li class="active">Default</li>
+                    </ol>
+                </div> -->
+                <!--/ Toolbar -->
+            </div>
+        </div>
+        <!-- Page Header -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- START panel -->
+                <div class="panel panel-default">
+                    <!-- panel heading/header -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title ellipsis">Crawler Information</h3>
+                        <!-- panel toolbar -->
+                        <div class="panel-toolbar text-right">
+                            <!--
+                            <div class="option">
+                                <button class="btn up" data-toggle="panelcollapse"><i class="arrow"></i></button>
+                                <button class="btn" data-toggle="panelremove" data-parent=".col-md-6"><i class="remove"></i></button>
+                            </div>
+                            -->
+                        </div>
+                        <!--/ panel toolbar -->
+                    </div>
+                    <!--/ panel heading/header -->
+                    <!-- panel body with collapse capabale -->
+                    <div class="panel-collapse pull out">
+                        <div class="panel-body">
+                            <dl class="dl-horizontal">
+                                <dt>Running Project</dt>
+                                <dd class="{{ running_project.split('|')[0] }}">{{ running_project.split('|')[1] }}</dd>
+                                <dt>Project Build Version</dt>
+                                <dd class="{{ project_version.split('|')[0] }}">{{ project_version.split('|')[1] }}</dd>
+                                <dt>Running Spider</dt>
+                                <dd class="{{ running_spider.split('|')[0] }}">{{ running_spider.split('|')[1] }}</dd>
+                                <dt>Engines Total</dt>
+                                <dd class="text-primary">{{ engine_count }}</dd>
+                                <dt>Post To Lintas</dt>
+                                <dd class="text-primary"><a class="btn btn-primary mb5" href="/post_to_lintas/{{ post_to_lintas }}">{{ post_to_lintas.upper() }}</a></dd>
+                            </dl>
+                            <!--
+                            <button type="button" class="btn btn-primary mb5"><i class="ico-file-upload"></i> Rebuild Crawler</button>
+                            <button type="button" class="btn btn-danger mb5"><i class="ico-file-remove"></i> Delete All Crawler</button>
+                            -->
+                        </div>
+                    </div>
+                    <!--/ panel body with collapse capabale -->
+                </div>
+                <!--/ END panel -->
+            </div>
+        </div>
+
+        <!-- START row -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- START panel -->
+                <div class="panel panel-primary">
+                    <!-- panel heading/header -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="panel-icon mr5"><i class="ico-table22"></i></span>All Engines</h3>
+                        <!-- panel toolbar -->
+                        <div class="panel-toolbar text-right">
+                            <!-- option -->
+                            <div class="option">
+                                <button class="btn up" data-toggle="panelcollapse"><i class="arrow"></i></button>
+                                <button class="btn" data-toggle="panelremove" data-parent=".col-md-12"><i class="remove"></i></button>
+                            </div>
+                            <!--/ option -->
+                        </div>
+                        <!--/ panel toolbar -->
+                    </div>
+                    <!--/ panel heading/header -->
+                    <!-- panel toolbar wrapper -->
+                    <div class="panel-toolbar-wrapper pl0 pt5 pb5">
+                        <div class="panel-toolbar text-right">
+                            <button onclick="window.location.href='/engine/console/new_engine';" type="button" class="btn btn-success mb5"><i class="ico-user22"></i>Add New Engine</button>
+                        </div>
+                    </div>
+                    <!--/ panel toolbar wrapper -->
+
+                    <!-- panel body with collapse capabale -->
+                    <div class="table-responsive panel-collapse pull out">
+                        <table class="table table-bordered table-hover" id="table1">
+                            <thead>
+                                <tr>
+                                    <th width="15%">Engine</th>
+                                    <th>Command</th>
+                                    <th>Run Every</th>
+                                    <th style="text-align: center;">Status</th>
+                                    <th width="10%"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for engine in engines %}
+                                <tr class="{{ "text-danger" if engines[engine]['status'] == 'INACTIVE' else "" }}">
+                                    <td>{{ engine }}</td>
+                                    <td>{{ engines[engine]['cmd'] }}</td>
+                                    <td><strong>{{ engines[engine]['hour_run_at'] }}</strong> hours and minute to <strong>{{ engines[engine]['minute_run_at'] }}</strong></td>
+                                    <td class="text-center">{{ engines[engine]['status'] }}</td>
+                                    <td class="text-center">
+                                        <!-- button toolbar -->
+                                        <div class="toolbar">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-default">Action</button>
+                                                <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                                                    <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                    {% if engines[engine]['status'] == 'INACTIVE' %}
+                                                    <li><a href="/engine/console/{{ engine.lower() }}/{{ engines[engine]['minute_run_at'] }}/{{ engines[engine]['hour_run_at'] }}/activate"><i class="icon ico-pencil"></i>Activate</a></li>
+                                                    {% else %}
+                                                    <li><a href="/engine/console/{{ engine.lower() }}/{{ engines[engine]['minute_run_at'] }}/{{ engines[engine]['hour_run_at'] }}/deactivate" class="text-danger"><i class="icon ico-remove3"></i>Deactivate</a></li>
+                                                    {% end %}
+                                                    <!--<li><a href="/engine/{{ engine.lower() }}/edit"><i class="icon ico-pencil"></i>Edit</a></li>-->
+                                                    <li><a href="/engine/console/site_config/{{ engine.lower() }}"><i class="icon ico-pencil"></i>Site Configurations</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="/engine/console/{{ engine.lower() }}/delete" class="text-danger" ><i class="icon ico-print3"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!--/ button toolbar -->
+                                    </td>
+                                </tr>
+                                {% end %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--/ panel body with collapse capabale -->
+                </div>
+            </div>
+        </div>
+        <!--/ END row -->
+                        
+    </div>
+    <!--/ END Template Container -->
+
+    <!-- START To Top Scroller -->
+    <a href="#" class="totop animation" data-toggle="waypoints totop" data-showanim="bounceIn" data-hideanim="bounceOut" data-offset="50%"><i class="ico-angle-up"></i></a>
+    <!--/ END To Top Scroller -->
+
+</section>
+{% end %}

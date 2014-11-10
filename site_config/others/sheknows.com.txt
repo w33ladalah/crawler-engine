@@ -1,0 +1,8 @@
+title: //div[@class='body']/h3[1]
+body: //div[@class='body']
+
+strip: //img[@alt='Daily Flavor']
+#strip: //h3[last()]
+#strip: //p[last()]
+
+test_url: http://www.sheknows.com/food-and-recipes/articles/1020365/vegan-doughnuts-with-cardamom-pistachio-glaze-recipe

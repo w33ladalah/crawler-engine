@@ -1,0 +1,5 @@
+title: //h1[@class='title fn']
+author: //span[@class='created_by']/a/span
+body: //div[@class='caption']/div[@class='content']/p | //div[@class='picture'] | //div[@class='ingredients'] | //div[@class='steps']
+
+test_url: http://dapurmasak.com/resep/4464-cara-membuat-resep-special-macaroni-cheese?ref=home_newrecipe

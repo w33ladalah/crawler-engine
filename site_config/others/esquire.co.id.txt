@@ -1,0 +1,7 @@
+title: //div[@class='main_container']/table[@class='main_table']//tr[1]//td[1]//tr[4]//div[2]
+#body:  //div[@class='main_container']/table[@class='main_table']//td/div/img[1]
+body:  //div[@class='main_container']/table[@class='main_table']//td/div[5]
+
+#strip: //div[last()]
+
+test_url: http://www.esquire.co.id/artikel/view/201310/4622764/Sehat-Saat-di-Kantor

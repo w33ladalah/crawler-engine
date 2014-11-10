@@ -1,0 +1,4 @@
+title: //h2[@class='entry-title']/a
+body: //div[@class='post-info-left'] | //div[@class='post-content']/p
+
+test_url: http://www.edelmandigital.com/2013/09/13/digital-dice-linkedIn-bet-on-content-marketing

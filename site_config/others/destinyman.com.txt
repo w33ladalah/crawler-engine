@@ -1,0 +1,4 @@
+title: //h2[@class='entry-title clear']
+body: //img[@class='attachment-slideshow'] | //div[@class='entry-content']
+
+test_url: http://www.destinyman.com/2013/10/17/supersports-happy-ntshingila-resigns/

@@ -1,0 +1,5 @@
+title: //h1[@class='slideshow-heading row']
+body: //div[@class='module-media']/img | //div[@class='gutter']/p | //article[@id='jump-to-story']/div[@id='jump-to-read']
+
+test_url: http://www.refinery29.com/2013/10/55312/couples-halloween-costumes
+test_url: http://www.refinery29.com/lauren-conrad/10

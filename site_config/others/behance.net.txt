@@ -1,0 +1,7 @@
+title: //div[@id='project-header-main']/h1[@id='project-title']
+author: //div[@id='project-sidebar']/div[@class='sidebar-block sidebar-owner']//a[@id='owner']
+body: //div[@id='project-main']/div[@id='primary-project-content']//img | //div[@class='project-description']
+
+strip: //span[@class='variable-text-link fake-link']
+
+test_url: http://www.behance.net/gallery/Animasjonsdepartementet/9242071

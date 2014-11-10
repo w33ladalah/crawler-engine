@@ -1,0 +1,4 @@
+title: //div[@class='kanal']/div[@class='judulartikeldetail']
+body: //div[@class='kanal']/div[@class='gambardetail'] | //div[@class='kanal']/div[@class='isiartikel']/p
+
+test_url: http://www.kawankumagz.com/read/afgan-ungkapan-cinta-mendalam-lewat-sabar

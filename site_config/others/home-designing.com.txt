@@ -1,0 +1,7 @@
+title: //h1[@class='title']/a
+body: //img[@class='attachment-thumbnail'] | //div[@class='in_container']
+
+strip_id_or_class: likeform
+strip_id_or_class: follow-us
+
+test_url: http://www.home-designing.com/2013/10/minimalist-home-in-the-mountains

@@ -1,0 +1,6 @@
+title: //h1[@class='content-title']
+body: //div[@class='slider-content']//li//img | //div[@class='inner-content']/div[@class='photo']/p
+
+strip: //div[@class='kl-social-tabs']
+
+test_url: http://men.kapanlagi.com/photo/fashion-grooming/burberry-prorsum-ss-2014-131007c.html

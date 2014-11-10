@@ -1,0 +1,4 @@
+title: //h2[@class='post_title']
+body: //div[@class='entry-content']
+
+test_url: http://www.marketingtechblog.com/class-vs-social-media-marketing/

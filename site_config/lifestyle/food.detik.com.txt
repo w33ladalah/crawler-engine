@@ -1,0 +1,6 @@
+title: //h1[@class='l_green_detik']
+date: //div[@class='date pb5']
+author: //div[@class='author']/strong
+body: //div[@class='pic_artikel fl']/img | //div[@class='artikel2']/div[@class='text_detail']
+
+test_url: http://food.detik.com/read/2012/07/12/101232/1963360/369/resep-tahu-nugget-tahu

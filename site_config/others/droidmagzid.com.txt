@@ -1,0 +1,4 @@
+title: //h1[@class='post-title entry-title']
+body: //div[@class='single-post-thumb']/img | //div[@class='entry']
+
+test_url: http://droidmagzid.com/bbm-id-hanya-bisa-dipakai-di-satu-perangkat-saja.html

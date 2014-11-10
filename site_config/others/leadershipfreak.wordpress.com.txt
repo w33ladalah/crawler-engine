@@ -1,0 +1,10 @@
+title: //div[@id='content']//h2
+body: //div[@id='content']/div[contains(@id,'post-')]/div[@class='entry']/p
+
+strip: //img[@alt='subscribe']
+strip: //img[@alt='keynotes and workshops']
+strip: //p[@class='clear']
+strip: //p[@class='postmetadata alt']
+
+test_url: https://leadershipfreak.wordpress.com/2013/10/15/but-theyre-never-satisfied/
+test_url: https://leadershipfreak.wordpress.com/2013/10/11/finding-and-assigning-work-that-matters/

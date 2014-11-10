@@ -1,0 +1,5 @@
+title: //div[@class='detail-article']/h3
+body: //div[@class='img-article']/img | //div[@class='detail-article']/p
+
+test_url: http://www.duniasoccer.com//Duniasoccer/Internasional/Antarnegara/Piala-Dunia/News/Bekuk-Meksiko-Amerika-Serikat-ke-Brasil-2014
+test_url: http://www.duniasoccer.com//Duniasoccer/Internasional/Antarklub/Champions/News/Sociedad-Bertamu-ke-Old-Trafford-Tanpa-Rasa-Takut

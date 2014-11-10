@@ -1,0 +1,5 @@
+title: //h1[@class='mtb10 fwnormal f30']
+body: //div[@id='images-article-slide']/div/img | //div[@class='f14 c6 bodyp']/p
+
+test_url: http://www.beritasatu.com/nasional/144827-tiga-pengusaha-kepercayaan-wawan-dicekal-kpk.html
+test_url: http://www.beritasatu.com/nasional/144849-kembali-diperiksa-akankah-andi-ditahan.html

@@ -1,0 +1,8 @@
+title: //h1[@class='title']
+author: //p[@class='post-meta']/a[1]
+date: //span[@class='date']
+body: //div[@class='post-thumbnail']/img | //div[@id='content']/div[@id='main-area']/div[@class='post clearfix']/p
+
+strip: //p[@class='post-meta']
+
+test_url: http://www.aplikanologi.com/berita/kindle-fire-hd-menampakkan-diri-gosibdihital/

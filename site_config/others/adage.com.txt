@@ -1,0 +1,7 @@
+title: //div[@id='article']/h1
+author: //div[@id='article']//div[@class='inline-block']//a[@class='tooltip_item']
+date: //div[@id='article']/div[@class='byline clearfix']/time/a
+body: //div[@id='article']/div[@id='article_body']/div[@class='photo_left']/div[@class='story-image'] | //div[@id='article']/div[@id='article_body']
+
+test_url: http://adage.com/article/news/honda-introduces-tag-line-start-special/243813/
+test_url: http://adage.com/article/agency-news/pizza-hut-s-creative-account-heads-mcgarrybowen/244040/

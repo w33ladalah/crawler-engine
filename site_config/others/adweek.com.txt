@@ -1,0 +1,4 @@
+title: //div[@class='subheader']/div[@class='headings']/h1[@class='headline'] | //div[@class='subheader']/div[@class='headings']/span[@class='subheadline']
+body: //img[@class='imagecache imagecache-node-detail'] | //div[@class='article article-single page1']/p[@class='google_elide']
+
+test_url: http://www.adweek.com/news/advertising-branding/three-agencies-chase-spirit-airlines-153176

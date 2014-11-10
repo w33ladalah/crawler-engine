@@ -1,0 +1,6 @@
+title: //h1[@class='single-title clearfix class-post-format post-defauld']
+body: //div[@class='entry-content clearfix']//p
+
+strip: //img[contains(@alt, 'PIN BB Lingerie Edit Plus WA')]
+
+test_url: http://bunda.co/ibu-hamil-makan-pedas-bahayakah-bagi-bayi/732/

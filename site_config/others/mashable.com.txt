@@ -1,0 +1,15 @@
+title: //header[@class='entry-title']/h1
+body: //img[@class='microcontent'] | //section[@class='article-content']
+body: //div[@class='description']
+
+strip: //div[@class='ytm-gallery-box']
+strip: //aside[@class='shares social']
+strip: //div[@class='article-info']
+strip: //footer[@class='article-topics']
+
+# parser: html5lib
+
+test_url: http://mashable.com/2011/12/05/india-wants-google-and-facebook-to-censor-user-content/
+test_url: http://mashable.com/2013/09/12/twitter-exclusive-feature/
+test_url: http://mashable.com/2013/10/17/eu-antitrust-raiders/
+test_url: http://mashable.com/2013/08/02/social-media-increase-roi/

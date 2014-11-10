@@ -1,0 +1,3 @@
+title: //div[@class='content_detail']/h1
+body: //div[@class='content_detail']/div[@class='text_detail']
+image: //div[@class='content_detail']/div[@class='pic_artikel']/img/@src

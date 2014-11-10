@@ -1,0 +1,13 @@
+title: //h1[@class='post-listing-title']
+body: //div[@class='post-listing']
+
+# remove clutter
+strip: //a/big
+strip: //p/big
+strip: //a/em
+strip: //p/em
+strip_id_or_class: author_avatar
+strip_id_or_class: post-share
+
+test_url: http://inhabitat.com/2010/11/18/sliding-walls-transform-this-tokyo-house-into-an-office/
+test_url: http://inhabitat.com/gelin-lafon-architects-affordable-mixed-use-housing-project-is-a-little-social-utopia/

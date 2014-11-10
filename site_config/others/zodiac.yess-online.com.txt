@@ -1,0 +1,4 @@
+title: //h1[@class='post-title']/a
+body: //div[@class='entry']/p
+
+test_url: http://zodiac.yess-online.com/libra-24-september-23-oktober/

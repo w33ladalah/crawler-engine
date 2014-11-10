@@ -1,0 +1,4 @@
+title: //div[@id='article']/h1
+body: //div[@class='watermark']/a/img[@class='photo'] | //p[@class='introduction']/span[@class='zoomMe'] | //div[@class='articleContent']//div[@class='zoomMe']
+
+test_url: http://www.voaindonesia.com/content/pesawat-lao-airlines-jatuh-49-diperkirakan-tewas/1771341.html

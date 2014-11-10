@@ -1,0 +1,6 @@
+title: //header/h1[@class='title']
+author: //span[@class='author vcard']/span[@class='fn']/a
+date: //abbr[@class='date time published']
+body: //article/section[@class='entry']/p
+
+test_url: http://www.contentmarketingexchange.com/nonsense-guide-successful-blogger-outreach/

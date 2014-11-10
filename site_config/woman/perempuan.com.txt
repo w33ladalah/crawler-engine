@@ -1,0 +1,8 @@
+title: //div[@id='content']/h1
+body: //div[@id='content']/article[@class='entry clr']
+image: //img[@class='attachment-post-thumbnail wp-post-image']/@src
+publish_date: //li[@class='meta-date']/text()
+publish_date_day_pattern: \s([0-9]{1}|[0-9]{2}),\s
+publish_date_month_pattern: ^([a-zA-Z]+)\s
+publish_date_year_pattern: ,\s([0-9]{4})
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

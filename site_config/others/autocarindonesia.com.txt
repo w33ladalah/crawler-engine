@@ -1,0 +1,5 @@
+title: //div[@id='newsContainer']/h1
+body: //div[@class='articleImage']/img | //div[@id='newsContainer']/p
+
+test_url: http://www.autocarindonesia.com/News/361445,mitsubishi-outlander-phev-terjual-10000-unit-di-eropa.aspx
+test_url: http://www.autocarindonesia.com/News/361150,ini-dia-new-mercedes-benz-c-class.aspx

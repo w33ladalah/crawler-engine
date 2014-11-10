@@ -1,0 +1,4 @@
+title: //h1[@class='articles']
+body: //div[@class='articleImage'] | //div[@class='articleBody']
+
+test_url: http://www.fashionbeans.com/2013/a-guide-to-supplementing-with-vitamins-minerals/

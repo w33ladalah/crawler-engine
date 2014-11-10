@@ -1,0 +1,4 @@
+title: //div[@id='post'][1]/h2
+body: //div[@id='image-post']/img | //div[@id='post']/div[3]
+
+test_url: http://padangtoday.com/today/detail/49595

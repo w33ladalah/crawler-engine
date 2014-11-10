@@ -1,0 +1,67 @@
+{% extends _layout/layout.html %}
+
+{% block body %}
+<section id="main" role="main">
+    <!-- START Template Container -->
+    <div class="container-fluid">
+        <!-- Page Header -->
+        <div class="page-header page-header-block">
+            <div class="page-header-section">
+                <h4 class="title semibold">Home</h4>
+            </div>
+            <div class="page-header-section">
+                <!-- Toolbar -->
+                <!-- <div class="toolbar">
+                    <ol class="breadcrumb breadcrumb-transparent nm">
+                        <li><a href="#">Table</a></li>
+                        <li class="active">Default</li>
+                    </ol>
+                </div> -->
+                <!--/ Toolbar -->
+            </div>
+        </div>
+        <!-- Page Header -->
+
+        <!-- START row -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- START panel -->
+                <div class="panel panel-default">
+                    <!-- panel heading/header -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title ellipsis">Crawler Information</h3>
+                        <!-- panel toolbar -->
+                        <div class="panel-toolbar text-right">
+                            <!--
+                            <div class="option">
+                                <button class="btn up" data-toggle="panelcollapse"><i class="arrow"></i></button>
+                                <button class="btn" data-toggle="panelremove" data-parent=".col-md-6"><i class="remove"></i></button>
+                            </div>
+                            -->
+                        </div>
+                        <!--/ panel toolbar -->
+                    </div>
+                    <!--/ panel heading/header -->
+                    <!-- panel body with collapse capabale -->
+                    <div class="panel-collapse pull out">
+                        <div class="panel-body">
+                            <dl class="dl-horizontal">
+                                <dt>Running Project</dt>
+                                <dd class="{{ running_project.split('|')[0] }}">{{ running_project.split('|')[1] }}</dd>
+                                <dt>Project Build Version</dt>
+                                <dd class="{{ project_version.split('|')[0] }}">{{ project_version.split('|')[1] }}</dd>
+                                <dt>Running Spider</dt>
+                                <dd class="{{ running_spider.split('|')[0] }}">{{ running_spider.split('|')[1] }}</dd>
+                                <dt>Engines Total</dt>
+                                <dd class="text-primary"><a href="/engines">{{ engine_count }}</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!--/ panel body with collapse capabale -->
+                </div>
+                <!--/ END panel -->
+            </div>
+        </div>
+    </div>
+</section>
+{% end %}

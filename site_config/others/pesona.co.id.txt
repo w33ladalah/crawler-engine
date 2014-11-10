@@ -1,0 +1,8 @@
+title: //title
+body: //div[contains(@id, 'slide')] | //div[@class='artikel']/div[@class='artikelContent']
+
+prune: no
+strip: //a[@class='asatKecil']
+strip: //div[@class='addthis_toolbox addthis_default_style ']
+
+test_url: http://www.pesona.co.id/relasi/seks/manjakan.suami.dengan.pijatan.2/003/003/66

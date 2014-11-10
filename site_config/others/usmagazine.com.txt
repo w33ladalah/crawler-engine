@@ -1,0 +1,4 @@
+title: //div[@id='article-head']/h1
+body: //div[@id='article-image']/img | //div[@id='article-body']/p
+
+test_url: http://www.usmagazine.com/celebrity-beauty/news/kendall-jenner-gets-invisalign-braces----see-the-pic-20131610

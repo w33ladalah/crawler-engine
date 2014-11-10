@@ -1,0 +1,4 @@
+title: //div[@class='area-left']/article/h1
+body: //div[@class='artdet']/p
+
+test_url: http://www.videogamesindonesia.com/comics/selamat-hari-raya-idul-adha-1434h.php

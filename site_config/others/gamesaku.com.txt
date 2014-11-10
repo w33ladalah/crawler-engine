@@ -1,0 +1,7 @@
+title: //h1[contains(@class, 'blogtitle')]
+body: //div[@class='blogcontent']
+
+strip: //div[@class='blogcontent']/p[1]
+strip_id_or_class: divider
+
+test_url: http://gamesaku.com/asphalt-8-airborne-akan-berubah-jadi-gratis-di-minggu-ini/

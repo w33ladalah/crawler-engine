@@ -1,0 +1,5 @@
+title: //h1[@class='entry-title']/a
+body: //div[@class='entry-content']
+
+test_url: http://mix.co.id/event/sharing-session-pr-award-indonesia-pr-people-meeting/
+test_url: http://mix.co.id/event/kiat-menulis-press-release-yang-menarik-dan-bernilai-berita/

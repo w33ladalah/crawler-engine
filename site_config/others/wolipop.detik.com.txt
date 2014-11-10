@@ -1,0 +1,10 @@
+title: //div[@class='details_kanan fLeft update']/h1
+body: //div[@class='thumb']/img/@longdesc | //div[@class='details_kanan fLeft update']
+
+strip: //div[@class='date']
+strip: //h4
+strip: //div[@class='alamat']
+strip_id_or_class: ads
+
+test_url: http://wolipop.detik.com/read/2013/10/11/195456/2385021/227/mungkinkah-wanita-tahu-kalau-pria-cuma-pura-pura-orgasme
+test_url: http://wolipop.detik.com/read/2013/10/13/142138/2385610/849/konsumsi-5-makanan-ini-agar-tidak-mudah-terserang-penyakit

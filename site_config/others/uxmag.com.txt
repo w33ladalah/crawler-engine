@@ -1,0 +1,5 @@
+title: //div[@id='node-article-35388']/h1
+author: //div[@class='authors']/a[@class='user user-81226 entityreference']
+body: //div[@class='field field-name-field-article-image field-type-image field-label-hidden']/div[@class='field-items']/div[@class='field-item even'] | //div[@class='field field-name-body field-type-text-with-summary field-label-hidden']/div[@class='field-items']/div[@class='field-item even']
+
+test_url: http://uxmag.com/articles/win-this-book-evil-by-design

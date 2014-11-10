@@ -1,0 +1,4 @@
+title: //h2[@class='art-postheader']
+body: //div[@class='art-postcontent']
+
+test_url: http://maniacdev.com/2013/10/open-source-tool-for-debugging-ios-user-interfaces-featuring-a-3d-viewer-and-more

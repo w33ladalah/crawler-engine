@@ -1,0 +1,4 @@
+title: //div[@class='articleDetailBox']/h3
+body: //div[@class='insideSF']/p | //div[@class='insideCE']
+
+test_url: http://www.jalanjalan.co.id/inside/article/122/two_cities_rivalry

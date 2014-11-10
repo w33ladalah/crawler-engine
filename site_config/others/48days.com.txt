@@ -1,0 +1,4 @@
+title: //h1[@class='post-title']
+body: //div[@id='main']//div[contains(@id,'content')]/p
+
+test_url: http://www.48days.com/2013/10/07/would-this-company-hire-you/

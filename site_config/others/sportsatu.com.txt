@@ -1,0 +1,6 @@
+title: //div[@id='post-area']/h1[@class='headline']
+body: //div[@id='content-area']/div[@class='post-image'] | //div[@id='post-area']/div[@id='content-area']/p
+
+strip: //div[@id='post-area']/div[@id='content-area']/p[last()]
+
+test_url: http://sportsatu.com/2013/09/13/afghanistan-raih-gelar-pertama-di-kancah-internasional/

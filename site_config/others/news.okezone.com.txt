@@ -1,0 +1,5 @@
+title: //div[@class='read']/h1
+body: //img[@id='detailpic'] | //div[@class='read']/p
+
+test_url: http://news.okezone.com/read/2013/10/18/339/883552/anas-saya-tumbal-penguasa
+test_url: http://news.okezone.com/read/2013/10/18/339/883566/redirect

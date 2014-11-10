@@ -1,0 +1,9 @@
+title: //h1[@class='jdl-detail']
+body: //div[@class='txt-detailberita']/p
+image: //div[@class='img-detailberita']/img/@src
+start_url: http://www.republika.co.id/kanal/nasional
+publish_date: //div[@class='date']/text()
+publish_date_day_pattern: ,\s([0-9]{2})\s
+publish_date_month_pattern: \s([a-zA-Z]+)\s[0-9]
+publish_date_year_pattern: \s([0-9]{4}),
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

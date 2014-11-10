@@ -1,0 +1,4 @@
+title: //h1[@class='entry-title']
+body: //div[@class='entry-content']/p
+
+test_url: http://www.joyindonesia.com/pijat-erotis-dari-kepala-hingga-ujung-kaki/

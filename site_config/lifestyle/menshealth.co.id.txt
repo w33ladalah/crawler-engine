@@ -1,0 +1,7 @@
+title: //div[@class='artikelContent']/h1
+body: //div[@class='artikelContent']
+
+strip: //div[@class='artikelContent']/h1
+strip: //div[@id='divIndicatorImage']
+
+test_url: http://www.menshealth.co.id/fitnes.latihan/fitnes/tahan.dan.makin.kuat/001/001/58

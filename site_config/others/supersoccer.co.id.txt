@@ -1,0 +1,4 @@
+title: //div[@id='textContentLeft']/h1
+body: //div[@class='textContentText clearfix']/div/p
+
+test_url: http://www.supersoccer.co.id/sepakbola-internasional/tanpa-pirlo-juventus-kesulitan/?utm_source=rss&utm_medium=rss&utm_campaign=tanpa-pirlo-juventus-kesulitan

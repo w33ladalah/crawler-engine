@@ -1,0 +1,5 @@
+title: //div[@id='title-main']/h1[@class='headline']
+author: //div[@id='title-main']/span[@class='post-byline']/a
+body: //div[@id='home-main']/div[@id='post-area']/div[@id='content-area']
+
+test_url: http://www.trenologi.com/2013091223207/asus-persiapkan-padfone-infinity/

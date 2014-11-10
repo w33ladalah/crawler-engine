@@ -1,0 +1,4 @@
+title: //div[@class='judul scb']
+body: //div[@class='thumb']//img | //div[@class='content_isi clearfix']/div[2]
+
+test_url: http://www.bolanews.com/read/kolom/kolom-satu/51753-Indra-Sjafri-Erick-Thohir.html

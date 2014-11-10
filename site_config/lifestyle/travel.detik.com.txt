@@ -1,0 +1,4 @@
+title: //div[@class='content_detail']/h1
+body: //img[@class='bigpic'] | //div[@class='text_detail minwidth']
+
+test_url: http://travel.detik.com/read/2013/10/18/191913/2389727/1382/keren-3-resor-di-bali-masuk-20-terbaik-se-asia

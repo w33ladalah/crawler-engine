@@ -1,0 +1,5 @@
+title: //h1[@id='maintitle']
+body: //h2[@id='subtitle'] | //div[contains(@class,'caption')]/img | //div[@id='content']/p
+
+test_url: http://nationalgeographic.co.id/berita/2013/10/portland-sebagai-kota-percontohan
+test_url: http://nationalgeographic.co.id/berita/2013/10/tidur-bersihkan-racun-otak

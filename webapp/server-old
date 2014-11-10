@@ -1,0 +1,30 @@
+#!/bin/bash
+PARAM=$1
+PATH="/var/www/crawler-engine"
+LOG_File="$PATH/webapp/log/serverpy.log"
+PID_File="$PATH/webapp/run.pid"
+
+case "$1" in
+    start)
+        echo -n "Starting server..."
+        /usr/bin/python "$PATH/webapp/main.py" > "$LOG_File" 2>&1 & echo $! > "$PID_File"
+        echo "."
+        ;;
+    restart)
+        echo -n "Restarting server..."
+        kill -9 $(<"$PID_File")
+        /usr/bin/python "$PATH/webapp/main.py" > "$LOG_File" 2>&1 & echo $! > "$PID_File"
+        echo "."
+        ;;
+    stop)
+        echo -n "Stopping server..."
+        kill -9 $(<"$PID_File")
+        echo "."
+        ;;
+
+    *)
+        echo "Usage: $PATH/webapp/crawler-engine {start|stop|restart}"
+        exit 1
+esac
+
+exit 0

@@ -1,0 +1,10 @@
+title: //div[@class='det_baca']/h1
+author: //div[@class='oleh']/span
+date: substring-after(//div[@class='det_baca']/div[@class='post']/text(), ':')
+body: //div[@class='det_baca']/div[@class='main_img'] | //div[@class='det_baca']/p
+
+#strip: //div[@class='oleh']
+#strip: //div[@class='multi-news']
+strip: //div[@class='det_baca']/p/strong
+
+test_url: http://bola.liputan6.com/read/685760/enam-pemain-muda-italia-yang-siap-bersinar

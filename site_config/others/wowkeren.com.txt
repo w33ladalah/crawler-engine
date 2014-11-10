@@ -1,0 +1,7 @@
+title: //div[@id='JudulHalaman']/h1
+date: //div[@class='published-date']
+body: //div[@id='IsiBerita']/div[@class='content']/div[@class='newspic'] | //div[@id='IsiBerita']/div[@class='content']/p
+
+strip: //div[@id='IsiBerita']/div[@class='content']/p[last()]
+
+test_url: http://www.wowkeren.com/berita/tampil/00039928.html

@@ -1,0 +1,7 @@
+title: //h1[@class='single-title']
+body: //section[@class='post_content clearfix']
+
+strip_id_or_class: really_simple_share 
+
+test_url: http://startupbisnis.com/jadwal-lengkap-microsoft-idtechdays-23-24-oktober-di-balai-kartini/
+test_url: http://startupbisnis.com/situasi-tantangan-dan-peluang-di-ekosistem-startup-indonesia/

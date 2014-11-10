@@ -1,0 +1,5 @@
+title: //h2[@class='entry-title single-title']
+author: //div[@class='additional-meta single-additional-meta']/a
+body: //div[@class='entry-content single-content']/p
+
+test_url: http://tinybuddha.com/blog/allowing-yourself-to-feel-pain-instead-of-hiding-from-it/

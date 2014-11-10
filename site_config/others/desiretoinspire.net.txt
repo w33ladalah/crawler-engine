@@ -1,0 +1,4 @@
+title: //h2[@class='title']
+body: //div[@class='body']/p
+
+test_url: http://www.desiretoinspire.net/blog/2013/10/17/want-to-play.html

@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -e
+
+NAME=LINTAS_ENGINE_SERVER
+APPPATH=/var/www/crawler-engine
+LOGFILE=$APPPATH/webapp/log/$NAME.log
+PIDFILE=$APPPATH/webapp/$NAME.pid
+
+DAEMON=$APPPATH/webapp/main.py
+DAEMON_OPTS="1421"
+
+export PATH="${PATH:+$APPPATH:}/usr/sbin:/sbin"
+
+case "$1" in
+  start)
+        echo -n "Starting daemon: "$NAME
+        start-stop-daemon --make-pidfile --background --start --pidfile $PIDFILE --exec $DAEMON
+        echo "."
+        ;;
+  stop)
+        echo -n "Stopping daemon: "$NAME
+        start-stop-daemon --stop --oknodo --pidfile $PIDFILE
+        echo "."
+        ;;
+  restart)
+        echo -n "Restarting daemon: "$NAME
+        start-stop-daemon --stop  --oknodo --retry 30 --pidfile $PIDFILE
+        start-stop-daemon --make-pidfile --background --start --pidfile $PIDFILE --exec $DAEMON
+        echo "."
+        ;;
+
+  *)
+        echo "Usage: $APPPATH/webapp/server {start|stop|restart}"
+        exit 1
+esac
+
+exit 0

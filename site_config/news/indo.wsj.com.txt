@@ -1,0 +1,8 @@
+title: //div[@class='articleHeadlineBox headlineType-newswire']/h1
+body: //div[@class='articlePage']
+crawl_areas: //div[@class='col6wide colOverflowTruncated']
+publish_date: //li[@class='dateStamp first']/small/text()
+publish_date_day_pattern: ([0-9]+)\.
+publish_date_month_pattern: \.\s(\w+)\s
+publish_date_year_pattern: \s([0-9]{4}),
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

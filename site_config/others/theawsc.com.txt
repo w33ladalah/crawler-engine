@@ -1,0 +1,7 @@
+title: //div[@class='post_header']/h2
+body: //div[@class='sidebar_content']/div[@class='post_wrapper']
+
+strip: //div[@class='post_header']/h2
+strip: //div[@class='post_detail']
+
+test_url: http://www.theawsc.com/2013/10/15/the-worst-excuse-ive-been-so-busy/

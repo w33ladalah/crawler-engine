@@ -1,0 +1,7 @@
+title: //h1[@class='entry-title']
+body: //div[@id='nrelate_flyout_placeholder']
+publish_date: //section[contains(@class,'post-')]/span[@class='meta-data']/text()
+publish_date_day_pattern: \s([0-9]{1}|[0-9]{2}),\s
+publish_date_month_pattern: ^([a-zA-Z]+)\s
+publish_date_year_pattern: ,\s([0-9]{4})
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

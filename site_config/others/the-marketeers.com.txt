@@ -1,0 +1,4 @@
+title: //h2[@class='judul-post']
+body: //div[@id='isi']/p
+
+test_url: http://www.the-marketeers.com/archives/kumpulkan-15-juta-tanda-tangan-starbucks-dorong-pemerintah-as-buka-kembali.html#.Ul-p61MW3_M

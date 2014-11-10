@@ -1,0 +1,4 @@
+title: //h3[@class='post-title entry-title']
+body: //div[contains(@id,'post-body-')]
+
+test_url: http://caramembuatmasakkan.blogspot.com/2013/10/resep-masakan-cah-kangkung-daging-ayam.html

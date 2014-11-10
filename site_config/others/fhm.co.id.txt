@@ -1,0 +1,7 @@
+title: //div[@class='headline_font pt_sans_caption_bold caption_article title_artikel']
+body: //div[2]/p[1]/img | //div[2]//table//tr/td[2]
+
+strip: //h3[last()]
+
+test_url: http://www.fhm.co.id/content/article/1018/10/2013/Paradise-Valley
+test_url: http://www.fhm.co.id/content/article/1015/10/2013/She-Got-Game

@@ -1,0 +1,4 @@
+title: //div[@class='articleHeadlineBox headlineType-newswire']/h1
+body: //div[@class='articlePage']
+
+test_url: http://indo.wsj.com/posts/2013/10/21/kebakaran-australia-berpotensi-meluas/?mod=WSJIdn__newsreel

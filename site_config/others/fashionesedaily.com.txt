@@ -1,0 +1,6 @@
+title: //article/h2
+body: //div[@class='article']/li/div/p
+
+#strip: //img[@class='wp-smiley']
+
+test_url: http://www.fashionesedaily.com/blog/2013/10/18/the-bling-ring/

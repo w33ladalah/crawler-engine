@@ -1,0 +1,7 @@
+title: //div[@class='DetailTittle']
+body: //div[@id='DetailGallery']/div[@id='rg-gallery']/div[@class='rg-image-wrapper']/div[@class='rg-image']/img | //div[@id='Content650'][2]
+
+strip_id_or_class: es-nav
+
+test_url: http://www.chicmagz.com/read/2921/hijab-etnik-indonesia
+test_url: http://www.chicmagz.com/read/3122/joe-jonas-masuk-rehabilitasi

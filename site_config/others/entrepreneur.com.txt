@@ -1,0 +1,7 @@
+title: //h1[@class='article-title']
+author: //a[@class='title author']
+body: //div[@class='articleimg']/img | //div[@id='article']/p
+
+strip: //p[last()]
+
+test_url: http://www.entrepreneur.com/article/229471

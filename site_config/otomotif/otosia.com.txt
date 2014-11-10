@@ -1,0 +1,8 @@
+title: //h1[@class='OtoDetailT']
+body: //div[@class='OtoDetailNews']/p
+image: //div[@id='mobart-detail']/div//img/@src
+publish_date: //span[@class='newsdetail-schedule']/text()
+publish_date_day_pattern: ,\s([0-9]{2})\s
+publish_date_month_pattern: [0-9]\s([a-zA-Z]+)\s
+publish_date_year_pattern: \s([0-9]{4})\s
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

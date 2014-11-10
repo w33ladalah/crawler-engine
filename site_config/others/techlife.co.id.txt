@@ -1,0 +1,4 @@
+title: //h1[@class='post-title entry-title']/a
+body: //div[contains(@class,'post-img')]/a/img | //div[@class='entry-content']/p
+
+test_url: http://techlife.co.id/p6388/

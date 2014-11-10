@@ -1,0 +1,8 @@
+title: //div[@id='v-newsdetail']/h1
+body: //div[@id='v-newsdetail']//p
+image: //div[@id='v-newsdetail']//img[@class='head']/@src
+publish_date: //div[@id='v-newsdetail']/div/text()
+publish_date_day_pattern: ,\s([0-9]{2})\s
+publish_date_month_pattern: [0-9]\s([a-zA-Z]+)\s
+publish_date_year_pattern: \s([0-9]{4})\s
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

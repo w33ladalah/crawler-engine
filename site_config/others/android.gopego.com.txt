@@ -1,0 +1,4 @@
+title: //h1[@class='mb inside']
+body: //div[@class='content inline mr']//img | //div[@class='inside']
+
+test_url: http://android.gopego.com/2013/10/download-ubuntu-13-10-lengkap-dengan-ubuntu-touch-for-smartphone

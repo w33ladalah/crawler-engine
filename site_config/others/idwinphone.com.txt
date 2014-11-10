@@ -1,0 +1,7 @@
+title: //h1[@class='post-title entry-title']
+body: //div[@class='featured-image clearfix'] | //div[contains(@class,'post-content-')]
+
+strip_id_or_class: post-content-left
+strip_id_or_class: meta-info
+
+test_url: http://idwinphone.com/aplikasi-populer-yang-akan-hadir-di-windows-phone

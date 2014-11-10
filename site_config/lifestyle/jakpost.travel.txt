@@ -1,0 +1,4 @@
+title: //div[@class='box01']/h2
+body: //img[contains(@class,'display-image-')] | //div[@class='story']/p
+
+test_url: http://www.jakpost.travel//news/friday-cycling-in-bandung-w5uA9BsL7WyReGl6.html

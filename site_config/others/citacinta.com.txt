@@ -1,0 +1,10 @@
+title: //div[@class='mainPage']/div[@id='ctl00_CphDetail_divContent']/h1
+body: //div[@class='mainPage']/div[@id='ctl00_CphDetail_divContent']/div[1]/div | //div[@class='mainPage']/div[@id='ctl00_CphDetail_divContent']
+
+strip: //hr
+strip_id_or_class: divIndicatorImage
+strip_id_or_class: divPrevNext
+strip_id_or_class: artikelPrevNext
+strip_image_src: webTemplate/website
+
+test_url: http://www.citacinta.com/cantik/gaya/how.to.wear.your.ripped.jeans/001/005/573

@@ -1,0 +1,11 @@
+title: //h1[@class='titles']/a
+body: //div[@class='thumbnail-div'] | //div[@class='post-wrapper']/div[@class='edwien']
+
+strip: //div[@class='edwien']/p[1]/a
+strip: //center/a
+strip: //div[@class='ex']
+strip: //div[@class='ex2']
+strip: //div[@class='post-info']
+strip_id_or_class: printfriendly
+
+test_url: http://doktersehat.com/nyeri-pinggang-bawah/

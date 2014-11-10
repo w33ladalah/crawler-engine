@@ -1,0 +1,8 @@
+title: //div[@class='content_detail']/h1
+body: //div[@class='content_detail']/div[@class='text_detail']
+image: //div[@class='content_detail']/div[@class='pic_artikel']/img/@src
+publish_date: //div[@class='date']/text()
+publish_date_day_pattern: ,\s([0-9]{2})\/
+publish_date_month_pattern: \/([0-9]{2})\/
+publish_date_year_pattern: \/([0-9]{4})\s
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

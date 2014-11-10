@@ -1,0 +1,6 @@
+title: //meta[@property='og:title']/@content
+body: //div[@class='leftside']//img | //div[@class='leftside']//article
+
+strip: //img[@title='Pin It']
+
+test_url: http://www.harpersbazaar.co.id/articles/read/10/2013/611/Inspirasi-Riasan-Segar-ala-Salma-Hayek

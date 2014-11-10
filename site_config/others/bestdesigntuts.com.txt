@@ -1,0 +1,6 @@
+title: //header/h1[@class='title single-title']
+body: //div[@class='single_post']/div[@class='post-single-content box mark-links']
+
+strip: //div[@class='flare-horizontal flare-position-top-left flare-backgroundcolor-dark enabletotal']
+
+test_url: http://www.bestdesigntuts.com/top-20-web-related-vectors-for-web-designers

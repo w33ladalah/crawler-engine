@@ -1,0 +1,6 @@
+title: //h1[@class='v7-music-newsdetail-title']
+body: //div[@id='v7-music-newsdetail-image-headline']/img | //div[@class='v7-music-detail-news']
+
+strip: //a[contains(@onclick,'_gaq')]
+
+test_url: http://musik.kapanlagi.com/berita/audio-taylor-swift-rilis-lagu-cinta-sweeter-than-fiction-a86bbb.html

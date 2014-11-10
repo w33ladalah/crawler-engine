@@ -1,0 +1,6 @@
+title: //h1[@class='sub-headline title title-font-size-small']
+body: //div[@class='entry_img_top'] | //div[@class='entry_container clear']/div[@class='entry_content clear']/p
+
+test_url: http://www.eonline.com/news/471021/non-stop-trailer-liam-neeson-gets-framed-kicks-butt-in-airplane-thriller?cmpid=rss-000000-rssfeed-365-topstories&utm_source=eonline&utm_medium=rssfeeds&utm_campaign=rss_topstories
+test_url: http://www.eonline.com/news/468844/kimberly-snyder-shares-healthy-smoothies-for-weight-loss-anti-aging-benefits-and-more
+test_url: http://www.eonline.com/news/470858/leonardo-dicaprio-for-fifty-shades-of-grey-yes-if-oliver-stone-was-in-charge-of-casting?cmpid=rss-000000-rssfeed-365-topstories&utm_source=eonline&utm_medium=rssfeeds&utm_campaign=rss_topstories

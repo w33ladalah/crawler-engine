@@ -1,0 +1,4 @@
+title: //h1[@class='posttitle']
+body: //div[@class='storycontent']/p
+
+test_url: http://www.jwt.com/blog/jwt_news/jwt-new-york-welcomes-new-senior-talent/

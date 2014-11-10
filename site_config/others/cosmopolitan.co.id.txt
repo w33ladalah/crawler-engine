@@ -1,0 +1,3 @@
+title: //div[@class='title_content']
+body: //div[@class='article']//img | //div[@class='text_content']/p
+test_url: http://www.cosmopolitan.co.id/article/read/10/2013/3206/-Putra-Jude-Law-Rambah-Dunia-Model

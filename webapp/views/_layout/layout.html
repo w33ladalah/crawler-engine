@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- 
+TEMPLATE NAME : Adminre backend
+VERSION : 1.2.0
+AUTHOR : JohnPozy
+AUTHOR URL : http://themeforest.net/user/JohnPozy
+EMAIL : pampersdry@gmail.com
+LAST UPDATE: 23/06/2014
+
+** A license must be purchased in order to legally use this template for your project **
+** PLEASE SUPPORT ME. YOUR SUPPORT ENSURE THE CONTINUITY OF THIS PROJECT **
+-->
+<html class="backend">
+<!-- START Head -->
+<head>
+    <!-- START META SECTION -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{title}}</title>
+    <meta name="author" content="pampersdry.info">
+    <meta name="description" content="Adminre is a clean and flat backend and frontend theme build with twitter bootstrap 3.1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/image/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/image/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/image/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/image/touch/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" href="/assets/image/favicon.ico">
+    <!--/ END META SECTION -->
+
+    <!-- START STYLESHEETS -->
+    <!-- Plugins stylesheet : optional -->
+
+    <link rel="stylesheet" href="/assets/plugins/selectize/css/selectize.min.css">
+    <link rel="stylesheet" href="/assets/plugins/jqueryui/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/plugins/jqueryui/css/jquery-ui-timepicker.min.css">
+    <!--/ Plugins stylesheet -->
+
+    <!-- Application stylesheet : mandatory -->
+    <link rel="stylesheet" href="/assets/library/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/stylesheet/layout1.css">
+    <link rel="stylesheet" href="/assets/stylesheet/uielement.min.css">
+    <!--/ Application stylesheet -->
+    <!-- END STYLESHEETS -->
+
+    <!-- START JAVASCRIPT SECTION - Load only modernizr script here -->
+    <script src="/assets/library/modernizr/js/modernizr.min.js"></script>
+    <!--/ END JAVASCRIPT SECTION -->
+</head>
+<!--/ END Head -->
+
+<!-- START Body -->
+<body>
+    <!-- START Template Header -->
+    <header id="header" class="navbar navbar-fixed-top">
+        <!-- START navbar header -->
+        <div class="navbar-header">
+            <!-- Brand -->
+            <a class="navbar-brand" href="javascript:void(0);">
+                <span class="logo-figure"></span>
+                <span class="logo-text"></span>
+            </a>
+            <!--/ Brand -->
+        </div>
+        <!--/ END navbar header -->
+
+        <!-- START Toolbar -->
+        <div class="navbar-toolbar clearfix">
+            <!-- START Left nav -->
+            <ul class="nav navbar-nav navbar-left">
+                    <!-- Sidebar shrink -->
+                    <li class="hidden-xs hidden-sm">
+                        <a href="javascript:void(0);" class="sidebar-minimize" data-toggle="minimize" title="Minimize sidebar">
+                            <span class="meta">
+                                <span class="icon"></span>
+                            </span>
+                        </a>
+                    </li>
+                    <!--/ Sidebar shrink -->
+
+                </ul>
+            <!--/ END Left nav -->
+
+            <!-- START navbar form
+            <div class="navbar-form navbar-left dropdown" id="dropdown-form">
+                <form action="" role="search">
+                    <div class="has-icon">
+                        <input type="text" class="form-control" placeholder="Search application...">
+                        <i class="ico-search form-control-icon"></i>
+                    </div>
+                </form>
+            </div>
+            <!-- START navbar form -->
+
+            <!-- START Right nav -->
+            <ul class="nav navbar-nav navbar-right">
+                <!-- Profile dropdown -->
+                <li class="dropdown profile">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="meta">
+                            <span class="avatar"><img src="/assets/image/avatar/avatar7.jpg" class="img-circle" alt=""></span>
+                            <span class="text hidden-xs hidden-sm pl5">Engine Admin</span>
+                            <span class="caret"></span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/engine/console/logout"><span class="icon"><i class="ico-exit"></i></span> Sign Out</a></li>
+                    </ul>
+                </li>
+                <!-- Profile dropdown -->
+
+                
+            </ul>
+            <!--/ END Right nav -->
+        </div>
+        <!--/ END Toolbar -->
+    </header>
+    <!--/ END Template Header -->
+
+    <!-- START Template Sidebar (Left) -->
+    <aside class="sidebar sidebar-left sidebar-menu">
+        <!-- START Sidebar Content -->
+        <div class="viewport" style="position: relative; overflow: hidden; width: auto;"><section class="content slimscroll" style="overflow: hidden; width: auto;">
+            <h5 class="heading">Main Menu</h5>
+            <!-- START Template Navigation/Menu -->
+            <ul class="topmenu topmenu-responsive" data-toggle="menu">
+                <li >
+                    <a href="http://www.lintas.me/admin_auth/login">
+                        <span class="figure"><i class="ico-file6"></i></span>
+                        <span class="text">To Content Backend</span>
+                    </a>
+                </li>
+                <li class="active open">
+                    <a href="/engine/console/home" data-target="#informations">
+                        <span class="figure"><i class="ico-home"></i></span>
+                        <span class="text">Home</span>
+                        <span class="arrow"></span>
+                    </a>
+                </li>
+                <!--
+                <li class="active open">
+                    <a href="/engines" data-target="#engines">
+                        <span class="figure"><i class="ico-screwdriver"></i></span>
+                        <span class="text">Engines</span>
+                        <span class="arrow"></span>
+                    </a>
+                </li>
+                -->
+            </ul>
+            <!--/ END Template Navigation/Menu -->
+
+            <!-- START Sidebar summary -->
+            <!-- Summary -->
+
+            <!--/ Summary -->
+            <!--/ END Sidebar summary -->
+        </section><div class="scrollbar" style="width: 8px; position: absolute; top: 0px; opacity: 0.4; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 0px; height: 196.78783592645px; display: block; background: rgb(0, 0, 0);"></div><div class="scrollrail" style="width: 8px; height: 100%; position: absolute; top: 0px; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; opacity: 0.2; z-index: 90; right: 0px; background: rgb(51, 51, 51);"></div></div>
+        <!--/ END Sidebar Container -->
+    </aside>
+    <!--/ END Template Sidebar (Left) -->
+
+    <!-- START Template Main -->
+    {% block body %}{% end %}
+    <!--/ END Template Main -->
+
+    <!-- START JAVASCRIPT SECTION (Load javascripts at bottom to reduce load time) -->
+    <!-- Library script : mandatory -->
+    <script type="text/javascript" src="/assets/library/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/library/jquery/js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/library/core/js/core.min.js"></script>
+    <!--/ Library script -->
+
+    <!-- App and page level script -->
+    <script type="text/javascript" src="/assets/plugins/sparkline/js/jquery.sparkline.min.js"></script><!-- will be use globaly as a summary on sidebar menu -->
+    <script type="text/javascript" src="/assets/javascript/app.min.js"></script>
+
+
+    <script type="text/javascript" src="/assets/plugins/inputmask/js/inputmask.min.js"></script>
+        
+    <script type="text/javascript" src="/assets/plugins/selectize/js/selectize.min.js"></script>
+    
+    <script type="text/javascript" src="/assets/plugins/jqueryui/js/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript" src="/assets/plugins/jqueryui/js/jquery-ui-timepicker.min.js"></script>
+    
+    <script type="text/javascript" src="/assets/plugins/jqueryui/js/jquery-ui-touch.min.js"></script>
+    
+    <script type="text/javascript" src="/assets/javascript/forms/element.js"></script>
+
+    <!--/ App and page level script -->
+    <!--/ END JAVASCRIPT SECTION -->
+    
+    <!--/ END Body -->
+
+    <div id="flotTip" style="display: none; position: absolute;"></div>
+</body>
+<!--/ END Body -->
+</html>

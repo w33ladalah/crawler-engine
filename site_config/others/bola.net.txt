@@ -1,0 +1,5 @@
+title: //h1[@class='newstitle news']
+date: //div[@class='newsdatetime']
+body: //div[@class='news-headline-image news']/img | //div[@id='newspaging_content']/div[@class='ncont']
+
+test_url: http://www.bola.net/indonesia/ibunda-tutup-usia-djanur-tetap-di-papua-cbae45.html

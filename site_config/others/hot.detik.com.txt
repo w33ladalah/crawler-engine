@@ -1,0 +1,8 @@
+title: //h1[@class='l_blue2_detik']
+body: //div[contains(@class,'pic')]/img | //div[@class='text_detail']
+
+strip: //div[contains(@id, 'beacon')]
+strip: //p[last()]
+
+test_url: http://hot.detik.com/music/read/2013/10/16/134151/2386960/1180/dongho-hengkang-dari-u-kiss
+test_url: http://hot.detik.com/music/read/2013/10/21/111609/2390820/1180/topp-dogg-akan-jadi-super-junior-versi-hip-hop

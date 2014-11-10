@@ -1,0 +1,8 @@
+title: //div[@id='c']/div[@id='l']/div/h1
+body: //div[@id='a_img']/img | //div[@id='page']/div[@id='c']/div[@id='l']/div
+
+strip_id_or_class: info
+strip_id_or_class: cornered
+strip_id_or_class: rc_box
+
+test_url: http://www.talkmen.com/articles/read/784/lg-escapade-to-japan/

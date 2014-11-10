@@ -1,0 +1,8 @@
+title: //div[@id='container']/div[@id='page_head']/h1
+author: //div[@class='article_body']/div[@class='gallery_item_container']/div[@id='gallery_text']/p[@class='credit']/a
+body: //div[@id='content']/div[@id='content_page_specific']/div[@id='content_mainA']/div[@class='subsection'][1]/div[@id='gallery'] | //div[@id='content']/div[@id='content_page_specific']/div[@id='content_mainA']/div[@class='subsection'][1]/div[@class='article_body']/div[@class='gallery_item_container']/div[@id='gallery_text']
+
+strip: //div[@class='article_body']/div[@class='gallery_item_container']/div[@id='gallery_text']/p[@class='credit']
+strip_id_or_class: wallpaper_link
+
+test_url: http://photography.nationalgeographic.com/photography/photo-tips/macro-photo-tips/

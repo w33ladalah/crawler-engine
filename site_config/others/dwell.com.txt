@@ -1,0 +1,7 @@
+title: //article[@class='content']/h1[@id='page-title']
+author: //div[@class='views-field views-field-field-rel-person-author']/div[@class='field-content']/a
+body: //div[@class='imagefield-caption']/div[@class='imagefield-caption-inner']/p | //article[@class='content']/div[@class='node-summary'] | //article[@class='content']/div[@class='field field-name-body field-type-text-with-summary field-label-hidden']/div[@class='field-items']/div[@class='field-item even']/p | //article[@class='content']/div[@class='field field-name-field-photobank field-type-field-collection field-label-hidden']/div[@class='field-items']/div[@class='field-item even']/div[@class='imagefield-image imagefield-image-slideshow-link']
+
+strip: //article[@class='content']/div[@class='field field-name-field-photobank field-type-field-collection field-label-hidden']/div[@class='field-items']/div[@class='field-item even']/div[@class='imagefield-image imagefield-image-slideshow-link']/a
+
+test_url: http://www.dwell.com/profiles/article/designer-focus-brad-ascalon

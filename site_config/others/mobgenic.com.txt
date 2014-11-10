@@ -1,0 +1,4 @@
+title: //div[@class='post-meta']/h1
+body: //img[@class='attachment-slide wp-post-image'] | //div[@class='post-content']/p
+
+test_url: http://www.mobgenic.com/2013/10/09/bus-bus-sekolah-dengan-tampilan-unik-di-jepang/

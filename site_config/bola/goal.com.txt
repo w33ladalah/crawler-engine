@@ -1,0 +1,10 @@
+title: //div[@class='headlines']/h1
+body: //div[@class='article-text']
+image: //img[@class=' article-image']/@src
+start_url: http://www.goal.com/id-ID/news/archive/1?ICID=HP_TN_QL_1
+crawl_areas: //div[@class='day-news first-child']
+publish_date: //div[@class='module module-article-body clearfix']/time/text()
+publish_date_day_pattern: ^([0-9]{1}|[0-9]{2})\s
+publish_date_month_pattern: \s([a-zA-Z]+)\s
+publish_date_year_pattern: \s([0-9]{4})\s
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

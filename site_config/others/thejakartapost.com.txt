@@ -1,0 +1,4 @@
+title: //div[@class='headline']/div[@class='story']/h1
+body: //img[@class='image image-_original '] | //div[@class='story']//p
+
+test_url: http://www.thejakartapost.com/news/2013/10/21/bin-allegation-foments-anas-sby-rivalry.html

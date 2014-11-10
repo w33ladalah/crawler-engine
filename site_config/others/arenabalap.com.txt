@@ -1,0 +1,6 @@
+#title: //h1[@class='judul']
+body: //div[@id='leftcontent']/p
+
+strip: //span[@class='date']
+
+test_url: http://arenabalap.com/berita-877-pedrosa-bridgestone-merusak-citra-motogp-karena-insiden-ban.html

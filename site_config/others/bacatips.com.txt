@@ -1,0 +1,5 @@
+title: //h1[@class='post-title entry-title']/a
+body: //div[contains(@id,'post-body')]/div[1]/div
+
+test_url: http://www.bacatips.com/2013/10/manfaat-air-kelapa-untuk-kesehatan.html
+test_url: http://www.bacatips.com/2013/10/inilah-artis-indonesia-yang-tetap.html

@@ -1,0 +1,6 @@
+title: //div[@id='page']/div[@class='bb-wrap']/header[@id='title-block']/h1
+author: //header[@id='title-block']/div[@class='byline']/cite/span[@class='vcard']/a[@class='author url fn ']
+date: //header[@id='title-block']/div[@class='byline']/cite/span[@class='date dtreviewed']/span[@class='value-title']/time
+body: //div[@id='primary-wrap']/div[@class='header-media image full-width'] | //div[@id='primary']/article[@id='content']
+
+test_url: http://www.digitaltrends.com/social-media/these-are-the-restaurants-we-love-instagramming-from/

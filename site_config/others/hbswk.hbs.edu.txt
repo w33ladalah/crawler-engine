@@ -1,0 +1,6 @@
+title: //h1[@class='beta title']
+body: //div[@id='exec-summary'] | //div[@id='main']/p
+
+strip: //p[last()]
+
+test_url: http://hbswk.hbs.edu/item/7282.html

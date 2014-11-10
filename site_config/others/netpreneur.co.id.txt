@@ -1,0 +1,10 @@
+title: //div[@class='entry']/h1
+author: //div[@class='right-column']/ul[1]/li[@class='name']
+date: //p[@class='date']/strong[1]/time
+body: //div[@class='entry']//div[@class='full-image']/img | //div[@class='entry']//p
+
+strip: //div[@class='entry']//p[@class='date']
+#strip: //div[@class='entry']//p[last()-1]
+#strip: //div[@class='entry']//p[last()-2]
+
+test_url: http://netpreneur.co.id/tingkatkan-jumlah-produk-agar-toko-online-semakin-menarik/#.UjbFTyIW3_M

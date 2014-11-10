@@ -1,0 +1,4 @@
+title: //div[@id='ContentLeftDetailTittle']
+body: //img[@id='display_image'] | //div[@id='ContentDetail']
+
+test_url: http://www.chip.co.id/news/startups-press_release/8349/wajah_baru_odioli.com_sebagai_e-commerce_di_indonesia

@@ -1,0 +1,6 @@
+title: //div[@class='cnl_title']
+date: //div[@class='cnl_author']/div[@class='cnla_date']
+author: //div[@class='cnl_author']/div[@class='cnla_name']/a[@class='basic']
+body: //div[@class='cnl_review']/div[@class='cnl_main_image'] | //div[@class='cnl_review']/div[@class='cnl_content']
+
+test_url: http://www.teknoup.com/news/26174/nokia-lumia-1520-akan-miliki-baterai-3400-mah-lebih-besar-dari-baterai-galaxy-note-3/

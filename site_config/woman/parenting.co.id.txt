@@ -1,0 +1,3 @@
+title: //div[@class='texttitle01']/h1
+body: //div[@class='article']
+image: //div[@class='article']/div/img/@src

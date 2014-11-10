@@ -1,0 +1,8 @@
+title: //div[@class='single-title']/h1
+body: //div[@class='single-right']/div[@class='content']
+image: //div[@class='single-thumb']/a/img[@class='lazy']/@src
+publish_date: //span[@class='author']/text()
+publish_date_day_pattern: ([0-9]{1}|[0-9]{2})\s[a-zA-Z]
+publish_date_month_pattern: \s([a-zA-Z]+)\s
+publish_date_year_pattern: \s([0-9]{4})
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})

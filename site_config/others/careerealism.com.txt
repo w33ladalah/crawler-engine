@@ -1,0 +1,4 @@
+title: //h2[@class='entry-title']
+body: //div[@class='post-thumb']/img[@class='attachment-post-thumbnail wp-post-image'] | //div[@class='entry-content']/p
+
+test_url: http://www.careerealism.com/conversation-starters-networking-events/

@@ -1,0 +1,7 @@
+title: //div[@id='content']//h1/span
+body: //div[@id='content']//img | //div[@id='content']
+
+strip: //div[@id='content']//h1/span
+strip: //div[@id='content']//h6
+
+test_url: http://www.gamenesia.com/5653164804014080/microsoft-akan-menyediakan-server-untuk-semua-multiplayer-game-di-xbox-one

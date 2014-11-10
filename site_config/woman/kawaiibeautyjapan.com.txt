@@ -1,0 +1,10 @@
+title: //article/h2/strong
+body: //article/div[@class='kbj-article']
+image: //div[@class='small-8 columns']/article/div/img/@src
+crawl_areas: //section[@id='posts']/div[2]
+start_url: http://www.kawaiibeautyjapan.com/
+publish_date: //article/div[3]/ul[@class='inline-list']/li[3]/text()
+publish_date_day_pattern: \s([0-9]{1}|[0-9]{2})\-
+publish_date_month_pattern: \-([0-9]{1}|[0-9]{2})\-
+publish_date_year_pattern: \-([0-9]{4})
+publish_date_time_pattern: ([0-9]{2}:[0-9]{2})
