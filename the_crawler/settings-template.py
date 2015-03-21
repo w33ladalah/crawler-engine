@@ -17,27 +17,25 @@ DOWNLOADER_MIDDLEWARES = {
     'the_crawler.middleware.ErrorMonkeyMiddleware': 2,
 }
 
-ITEM_PIPELINES = {    
+ITEM_PIPELINES = {
     'the_crawler.pipelines.CheckDuplicateAndOldArticle': 2,
     'the_crawler.pipelines.CleanHTML': 1,
-    # 'the_crawler.pipelines.Summarizer': 3,
     'the_crawler.pipelines.ImageDownloader': None,
     'the_crawler.pipelines.CheckTweets': 4,
     'the_crawler.pipelines.SaveResults': 5,
     'the_crawler.pipelines.SaveResultsJSON': 6,
-    'the_crawler.pipelines.PopularSuggestion': 7,
 }
 
-DB_HOST = "engine.db.lintas.me"
-DB_NAME = "lintasenginev2"
-DB_USER = "lcm"
-DB_PASS = "lcm12345"
+DB_HOST = "YOUR_VALUE_HERE"
+DB_NAME = "YOUR_VALUE_HERE"
+DB_USER = "YOUR_VALUE_HERE"
+DB_PASS = "YOUR_VALUE_HERE"
 
 THIS_MONTH = time.strftime("%Y-%m")
-ENGINE_PATH = "/opt/engine.lintas.me"
+ENGINE_PATH = ""
 LAST_POPULAR_UPDATE_PATH = "/tmp"
-SITE_CONFIG_PATH = "/opt/crawler/site_config/"
-BASE_CONTENT_PATH = "/var/www/engine.lintas.me/contents/%s" % THIS_MONTH
+SITE_CONFIG_PATH = ""
+BASE_CONTENT_PATH = ""
 CRAWLED_CONTENT_PATH = "%s/data" % BASE_CONTENT_PATH
 SET_POPULAR_DELAY = 60
 MAX_OLD_ARTICLE = 5
@@ -101,13 +99,13 @@ MONTH_DICTIONARY = {
     'July': '07',
     'Juli': '07',
     'Juli': '07',
-    
+
     '08': '08',
     'August': '08',
     'Agustus': '08',
     'Ags': '08',
     'Aug': '08',
-    
+
     '09': '09',
     'September': '09',
     'Sep': '09',

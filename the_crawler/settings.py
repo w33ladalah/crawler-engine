@@ -20,16 +20,14 @@ DOWNLOADER_MIDDLEWARES = {
 ITEM_PIPELINES = {
     'the_crawler.pipelines.CheckDuplicateAndOldArticle': 2,
     'the_crawler.pipelines.CleanHTML': 1,
-    # 'the_crawler.pipelines.Summarizer': 3,
     'the_crawler.pipelines.ImageDownloader': None,
     'the_crawler.pipelines.CheckTweets': 4,
     'the_crawler.pipelines.SaveResults': 5,
     'the_crawler.pipelines.SaveResultsJSON': 6,
-    'the_crawler.pipelines.PopularSuggestion': 7,
 }
 
 DB_HOST = "localhost"
-DB_NAME = "lintasengine"
+DB_NAME = "db_name"
 DB_USER = "root"
 DB_PASS = "12345"
 
@@ -108,14 +106,14 @@ MONTH_DICTIONARY = {
     'July': '07',
     'Juli': '07',
     'Jul': '07',
-    
+
     '8': '08',
     '08': '08',
     'August': '08',
     'Agustus': '08',
     'Ags': '08',
     'Aug': '08',
-    
+
     '9': '09',
     '09': '09',
     'September': '09',
