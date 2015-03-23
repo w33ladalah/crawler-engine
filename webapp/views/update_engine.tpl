@@ -25,7 +25,7 @@
                 <form class="panel panel-default form-horizontal form-bordered" action="/new_engine" method="post" data-parsley-validate>
                     <div class="panel-heading">
                         <h3 class="panel-title"><i class="ico-tshirt mr5"></i>Engine Details</h3>
-                    </div>               
+                    </div>
                     <div class="panel-body">
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Engine Name</label>
