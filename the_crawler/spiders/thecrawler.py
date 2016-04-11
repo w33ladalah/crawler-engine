@@ -16,7 +16,7 @@ class TheCrawler(Spider):
     name = 'TheCrawlerEngineV1'
 
     def __init__(self, **kw):
-        super(LintasEngine, self).__init__(**kw)
+        super(TheCrawler, self).__init__(**kw)
         
         self.channel = kw.get('channel')
         self.domain = kw.get('domain')
