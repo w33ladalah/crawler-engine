@@ -1,6 +1,6 @@
 import time
 
-BOT_NAME = 'lintasengine'
+BOT_NAME = 'the_crawler'
 
 SPIDER_MODULES = ['the_crawler.spiders']
 NEWSPIDER_MODULE = 'the_crawler.spiders'
